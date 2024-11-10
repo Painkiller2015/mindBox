@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35417.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{3BB2E0B8-4AEF-4D4F-8EB2-1590A6EDB4CB}"
+	ProjectSection(SolutionItems) = preProject
+		sqL.txt = sqL.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMindBox", "UnitTestMindBox\UnitTestMindBox.csproj", "{77DEAC98-AED1-4175-B7F1-CA1FFF04A393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathFigureLib", "MathFigureLib\MathFigureLib.csproj", "{56E4FC80-C976-4146-9E74-6924B69849DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DEAC98-AED1-4175-B7F1-CA1FFF04A393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DEAC98-AED1-4175-B7F1-CA1FFF04A393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DEAC98-AED1-4175-B7F1-CA1FFF04A393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DEAC98-AED1-4175-B7F1-CA1FFF04A393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E4FC80-C976-4146-9E74-6924B69849DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E4FC80-C976-4146-9E74-6924B69849DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E4FC80-C976-4146-9E74-6924B69849DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E4FC80-C976-4146-9E74-6924B69849DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

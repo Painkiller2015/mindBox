@@ -1,0 +1,4 @@
+SELECT p."Name" as Product, COALESCE(c."Name", '') as Category
+FROM "Products" as p 
+	LEFT JOIN  "ProductCategory" as pc ON p."ID" = pc."ProductId"
+	LEFT JOIN  "Category" as c ON c."ID" = pc."CategoryId"
